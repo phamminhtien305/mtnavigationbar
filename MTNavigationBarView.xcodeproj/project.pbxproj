@@ -644,14 +644,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 747LG25T2M;
 				INFOPLIST_FILE = MTNavigationBarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MTLAB.MTNavigationBarView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtlab.catchbeer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "38f4af08-6ca8-4ce0-ad68-6f218790948d";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_CatchBeer;
 				SWIFT_OBJC_BRIDGING_HEADER = "MTNavigationBarView/BaseClass/MTNavigationBarView-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -664,14 +667,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 747LG25T2M;
 				INFOPLIST_FILE = MTNavigationBarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MTLAB.MTNavigationBarView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtlab.catchbeer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "457c1f2f-1771-4815-92ba-4ff03bca51e9";
+				PROVISIONING_PROFILE_SPECIFIER = Dist_CatchBeer;
 				SWIFT_OBJC_BRIDGING_HEADER = "MTNavigationBarView/BaseClass/MTNavigationBarView-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

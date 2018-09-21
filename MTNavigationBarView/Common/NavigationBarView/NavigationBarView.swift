@@ -29,14 +29,14 @@ public enum NavigationType:Int {
 
 class NavigationBarView: UIView {
 
-    @IBOutlet weak var leftButton: UIButton!
-    @IBOutlet weak var rightButton: UIButton!
+    @IBOutlet private weak var leftButton: UIButton!
+    @IBOutlet private weak var rightButton: UIButton!
     
-    @IBOutlet weak var otherButton: UIButton!
+    @IBOutlet private weak var otherButton: UIButton!
     
-    @IBOutlet weak var arrowGenreImage: UIImageView!
-    @IBOutlet weak var droplistButton: UIButton!
-    @IBOutlet weak var drowdownView: UIView! {
+    @IBOutlet private weak var arrowGenreImage: UIImageView!
+    @IBOutlet private weak var droplistButton: UIButton!
+    @IBOutlet private weak var drowdownView: UIView! {
         didSet{
             drowdownView?.layer.borderColor = UIColor.gray.cgColor
         }

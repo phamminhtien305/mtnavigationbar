@@ -13,6 +13,7 @@ class SearchController: BaseTableController {
         self._targetTableView?.alpha = 0.0
         UIView.animate(withDuration: 0.25, delay: 0.5, options: UIViewAnimationOptions.curveEaseIn, animations: {
             self._targetTableView?.alpha = 1.0
+            self._targetTableView?.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
         }) { (finish) in
             self.updateWithListItem([Quotations().getListQuotations()] as [AnyObject])
         }
@@ -43,5 +44,4 @@ class SearchController: BaseTableController {
             })
         }
     }
-    
 }

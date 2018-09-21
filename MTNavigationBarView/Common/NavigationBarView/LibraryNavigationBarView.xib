@@ -64,12 +64,12 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line-h" translatesAutoresizingMaskIntoConstraints="NO" id="Vup-Os-5h4">
                     <rect key="frame" x="0.0" y="59" width="375" height="1"/>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Truyện mới xem" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ppb-NR-h1M">
-                    <rect key="frame" x="39" y="28" width="231" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Truyện mới xem" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ppb-NR-h1M">
+                    <rect key="frame" x="39" y="28" width="234" height="21"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="21" id="Zgi-wQ-Ksl"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
                     <color key="textColor" red="0.70588235290000001" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -107,7 +107,7 @@
                 <constraint firstAttribute="bottom" secondItem="Vup-Os-5h4" secondAttribute="bottom" id="MlS-Q3-4Vm"/>
                 <constraint firstItem="Vup-Os-5h4" firstAttribute="top" secondItem="lxh-no-wOX" secondAttribute="bottom" constant="5" id="aSw-H6-ZDL"/>
                 <constraint firstItem="Vup-Os-5h4" firstAttribute="top" secondItem="Ppb-NR-h1M" secondAttribute="bottom" constant="10" id="dCf-8t-MMF"/>
-                <constraint firstItem="lxh-no-wOX" firstAttribute="leading" secondItem="Ppb-NR-h1M" secondAttribute="trailing" constant="79" id="idW-O3-yYt"/>
+                <constraint firstItem="lxh-no-wOX" firstAttribute="leading" secondItem="Ppb-NR-h1M" secondAttribute="trailing" constant="5" id="idW-O3-yYt"/>
                 <constraint firstAttribute="trailing" secondItem="Vup-Os-5h4" secondAttribute="trailing" id="jWH-d4-x7X"/>
                 <constraint firstAttribute="trailing" secondItem="lxh-no-wOX" secondAttribute="trailing" constant="12" id="kka-CP-uxi"/>
             </constraints>

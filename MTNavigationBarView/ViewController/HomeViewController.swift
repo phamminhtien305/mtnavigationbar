@@ -55,6 +55,4 @@ extension HomeViewController: NavigationHandle {
         let searchViewController = SearchViewController(usingNib: SearchViewController.nibName())
         navigationController?.pushViewController(searchViewController, animated: true)
     }
-    
-    
 }
