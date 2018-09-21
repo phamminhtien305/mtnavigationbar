@@ -15,6 +15,39 @@
 		9C92A97D215493B4001762A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A97B215493B4001762A9 /* LaunchScreen.storyboard */; };
 		9C92A988215493B4001762A9 /* MTNavigationBarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A987215493B4001762A9 /* MTNavigationBarViewTests.swift */; };
 		9C92A993215493B4001762A9 /* MTNavigationBarViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A992215493B4001762A9 /* MTNavigationBarViewUITests.swift */; };
+		9C92A9A2215493E1001762A9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9A1215493E1001762A9 /* BaseViewController.swift */; };
+		9C92A9AC215494C8001762A9 /* SearchNavigationBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9A8215494C8001762A9 /* SearchNavigationBarView.xib */; };
+		9C92A9AD215494C8001762A9 /* NavigationBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9A9215494C8001762A9 /* NavigationBarView.xib */; };
+		9C92A9AE215494C8001762A9 /* LibraryNavigationBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9AA215494C8001762A9 /* LibraryNavigationBarView.xib */; };
+		9C92A9AF215494C8001762A9 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9AB215494C8001762A9 /* NavigationBarView.swift */; };
+		9C92A9B1215494DB001762A9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9B0215494DA001762A9 /* Constant.swift */; };
+		9C92A9B3215494F8001762A9 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9B2215494F8001762A9 /* DeviceManager.swift */; };
+		9C92A9B6215495EC001762A9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9B4215495EC001762A9 /* HomeViewController.swift */; };
+		9C92A9B7215495EC001762A9 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9B5215495EC001762A9 /* HomeViewController.xib */; };
+		9C92A9BA215495F7001762A9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9B8215495F7001762A9 /* SearchViewController.swift */; };
+		9C92A9BB215495F7001762A9 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9B9215495F7001762A9 /* SearchViewController.xib */; };
+		9C92A9DA2154A3BC001762A9 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9D12154A3BC001762A9 /* blackArrow.png */; };
+		9C92A9DB2154A3BC001762A9 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9D22154A3BC001762A9 /* blueArrow@2x.png */; };
+		9C92A9DC2154A3BC001762A9 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9D32154A3BC001762A9 /* grayArrow.png */; };
+		9C92A9DD2154A3BC001762A9 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9D42154A3BC001762A9 /* whiteArrow@2x.png */; };
+		9C92A9DE2154A3BC001762A9 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9D52154A3BC001762A9 /* whiteArrow.png */; };
+		9C92A9DF2154A3BC001762A9 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9D62154A3BC001762A9 /* blackArrow@2x.png */; };
+		9C92A9E02154A3BC001762A9 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9D72154A3BC001762A9 /* blueArrow.png */; };
+		9C92A9E12154A3BC001762A9 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9D82154A3BC001762A9 /* grayArrow@2x.png */; };
+		9C92A9E22154A3BC001762A9 /* MTTableViewPullRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9D92154A3BC001762A9 /* MTTableViewPullRefresh.swift */; };
+		9C92A9E62154A4A8001762A9 /* ColorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9E52154A4A8001762A9 /* ColorConfig.swift */; };
+		9C92A9EE2154A6CF001762A9 /* BaseHeaderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9EB2154A6CE001762A9 /* BaseHeaderTableView.swift */; };
+		9C92A9EF2154A6CF001762A9 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9EC2154A6CE001762A9 /* BaseTableViewCell.swift */; };
+		9C92A9F02154A6CF001762A9 /* BaseTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9ED2154A6CF001762A9 /* BaseTableController.swift */; };
+		9C92A9F22154A6F2001762A9 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9F12154A6F2001762A9 /* SearchController.swift */; };
+		9C92A9F52154A707001762A9 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9F32154A707001762A9 /* ResultsTableViewCell.swift */; };
+		9C92A9F62154A707001762A9 /* ResultsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C92A9F42154A707001762A9 /* ResultsTableViewCell.xib */; };
+		9C92A9FA2154C805001762A9 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9F92154C804001762A9 /* UIAlertView+Block.m */; };
+		9C92A9FE2154C9C2001762A9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9FD2154C9C2001762A9 /* MainViewController.swift */; };
+		9C92AA012154CDFF001762A9 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92A9FF2154CDFF001762A9 /* LibraryViewController.swift */; };
+		9C92AA022154CDFF001762A9 /* LibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C92AA002154CDFF001762A9 /* LibraryViewController.xib */; };
+		9C92AA042154CF1F001762A9 /* QuotationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92AA032154CF1F001762A9 /* QuotationsView.swift */; };
+		9C92AA072154D2D9001762A9 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C92AA062154D2D9001762A9 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +82,41 @@
 		9C92A98E215493B4001762A9 /* MTNavigationBarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTNavigationBarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C92A992215493B4001762A9 /* MTNavigationBarViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTNavigationBarViewUITests.swift; sourceTree = "<group>"; };
 		9C92A994215493B4001762A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C92A9A1215493E1001762A9 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9C92A9A8215494C8001762A9 /* SearchNavigationBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchNavigationBarView.xib; sourceTree = "<group>"; };
+		9C92A9A9215494C8001762A9 /* NavigationBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationBarView.xib; sourceTree = "<group>"; };
+		9C92A9AA215494C8001762A9 /* LibraryNavigationBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LibraryNavigationBarView.xib; sourceTree = "<group>"; };
+		9C92A9AB215494C8001762A9 /* NavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		9C92A9B0215494DA001762A9 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		9C92A9B2215494F8001762A9 /* DeviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		9C92A9B4215495EC001762A9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9C92A9B5215495EC001762A9 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		9C92A9B8215495F7001762A9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9C92A9B9215495F7001762A9 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		9C92A9D12154A3BC001762A9 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		9C92A9D22154A3BC001762A9 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		9C92A9D32154A3BC001762A9 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		9C92A9D42154A3BC001762A9 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		9C92A9D52154A3BC001762A9 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		9C92A9D62154A3BC001762A9 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		9C92A9D72154A3BC001762A9 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		9C92A9D82154A3BC001762A9 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		9C92A9D92154A3BC001762A9 /* MTTableViewPullRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTableViewPullRefresh.swift; sourceTree = "<group>"; };
+		9C92A9E52154A4A8001762A9 /* ColorConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConfig.swift; sourceTree = "<group>"; };
+		9C92A9EB2154A6CE001762A9 /* BaseHeaderTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseHeaderTableView.swift; sourceTree = "<group>"; };
+		9C92A9EC2154A6CE001762A9 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		9C92A9ED2154A6CF001762A9 /* BaseTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableController.swift; sourceTree = "<group>"; };
+		9C92A9F12154A6F2001762A9 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		9C92A9F32154A707001762A9 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
+		9C92A9F42154A707001762A9 /* ResultsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultsTableViewCell.xib; sourceTree = "<group>"; };
+		9C92A9F72154C803001762A9 /* MTNavigationBarView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTNavigationBarView-Bridging-Header.h"; sourceTree = "<group>"; };
+		9C92A9F82154C804001762A9 /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		9C92A9F92154C804001762A9 /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
+		9C92A9FD2154C9C2001762A9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9C92A9FF2154CDFF001762A9 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		9C92AA002154CDFF001762A9 /* LibraryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryViewController.xib; sourceTree = "<group>"; };
+		9C92AA032154CF1F001762A9 /* QuotationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotationsView.swift; sourceTree = "<group>"; };
+		9C92AA062154D2D9001762A9 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +167,9 @@
 		9C92A96E215493B4001762A9 /* MTNavigationBarView */ = {
 			isa = PBXGroup;
 			children = (
+				9C92A9A621549459001762A9 /* Common */,
+				9C92A9A321549408001762A9 /* ViewController */,
+				9C92A9A0215493D1001762A9 /* BaseClass */,
 				9C92A96F215493B4001762A9 /* AppDelegate.swift */,
 				9C92A971215493B4001762A9 /* ViewController.swift */,
 				9C92A973215493B4001762A9 /* Main.storyboard */,
@@ -126,6 +197,110 @@
 				9C92A994215493B4001762A9 /* Info.plist */,
 			);
 			path = MTNavigationBarViewUITests;
+			sourceTree = "<group>";
+		};
+		9C92A9A0215493D1001762A9 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				9C92A9F82154C804001762A9 /* UIAlertView+Block.h */,
+				9C92A9F92154C804001762A9 /* UIAlertView+Block.m */,
+				9C92A9CF2154A3BC001762A9 /* MTRefreshHeader */,
+				9C92A9A1215493E1001762A9 /* BaseViewController.swift */,
+				9C92A9EB2154A6CE001762A9 /* BaseHeaderTableView.swift */,
+				9C92A9ED2154A6CF001762A9 /* BaseTableController.swift */,
+				9C92A9EC2154A6CE001762A9 /* BaseTableViewCell.swift */,
+				9C92A9F72154C803001762A9 /* MTNavigationBarView-Bridging-Header.h */,
+				9C92A9FD2154C9C2001762A9 /* MainViewController.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		9C92A9A321549408001762A9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C92AA052154D2C1001762A9 /* Controller */,
+				9C92A9B4215495EC001762A9 /* HomeViewController.swift */,
+				9C92A9B5215495EC001762A9 /* HomeViewController.xib */,
+				9C92A9C32154A1F4001762A9 /* SearchViewController */,
+				9C92A9FF2154CDFF001762A9 /* LibraryViewController.swift */,
+				9C92AA002154CDFF001762A9 /* LibraryViewController.xib */,
+				9C92AA032154CF1F001762A9 /* QuotationsView.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9C92A9A621549459001762A9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9C92A9E52154A4A8001762A9 /* ColorConfig.swift */,
+				9C92A9B2215494F8001762A9 /* DeviceManager.swift */,
+				9C92A9B0215494DA001762A9 /* Constant.swift */,
+				9C92A9A7215494BB001762A9 /* NavigationBarView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9C92A9A7215494BB001762A9 /* NavigationBarView */ = {
+			isa = PBXGroup;
+			children = (
+				9C92A9AB215494C8001762A9 /* NavigationBarView.swift */,
+				9C92A9AA215494C8001762A9 /* LibraryNavigationBarView.xib */,
+				9C92A9A9215494C8001762A9 /* NavigationBarView.xib */,
+				9C92A9A8215494C8001762A9 /* SearchNavigationBarView.xib */,
+			);
+			path = NavigationBarView;
+			sourceTree = "<group>";
+		};
+		9C92A9C32154A1F4001762A9 /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C92A9C42154A211001762A9 /* Controller */,
+				9C92A9B8215495F7001762A9 /* SearchViewController.swift */,
+				9C92A9B9215495F7001762A9 /* SearchViewController.xib */,
+			);
+			path = SearchViewController;
+			sourceTree = "<group>";
+		};
+		9C92A9C42154A211001762A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C92A9F12154A6F2001762A9 /* SearchController.swift */,
+				9C92A9F32154A707001762A9 /* ResultsTableViewCell.swift */,
+				9C92A9F42154A707001762A9 /* ResultsTableViewCell.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C92A9CF2154A3BC001762A9 /* MTRefreshHeader */ = {
+			isa = PBXGroup;
+			children = (
+				9C92A9D02154A3BC001762A9 /* MTPullRefresh */,
+				9C92A9D92154A3BC001762A9 /* MTTableViewPullRefresh.swift */,
+			);
+			path = MTRefreshHeader;
+			sourceTree = "<group>";
+		};
+		9C92A9D02154A3BC001762A9 /* MTPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				9C92A9D12154A3BC001762A9 /* blackArrow.png */,
+				9C92A9D22154A3BC001762A9 /* blueArrow@2x.png */,
+				9C92A9D32154A3BC001762A9 /* grayArrow.png */,
+				9C92A9D42154A3BC001762A9 /* whiteArrow@2x.png */,
+				9C92A9D52154A3BC001762A9 /* whiteArrow.png */,
+				9C92A9D62154A3BC001762A9 /* blackArrow@2x.png */,
+				9C92A9D72154A3BC001762A9 /* blueArrow.png */,
+				9C92A9D82154A3BC001762A9 /* grayArrow@2x.png */,
+			);
+			path = MTPullRefresh;
+			sourceTree = "<group>";
+		};
+		9C92AA052154D2C1001762A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C92AA062154D2D9001762A9 /* HomeController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +371,7 @@
 				TargetAttributes = {
 					9C92A96B215493B4001762A9 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					9C92A982215493B4001762A9 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -232,9 +408,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C92A9AE215494C8001762A9 /* LibraryNavigationBarView.xib in Resources */,
 				9C92A97D215493B4001762A9 /* LaunchScreen.storyboard in Resources */,
 				9C92A97A215493B4001762A9 /* Assets.xcassets in Resources */,
+				9C92A9E02154A3BC001762A9 /* blueArrow.png in Resources */,
+				9C92A9DE2154A3BC001762A9 /* whiteArrow.png in Resources */,
+				9C92A9DD2154A3BC001762A9 /* whiteArrow@2x.png in Resources */,
+				9C92A9AC215494C8001762A9 /* SearchNavigationBarView.xib in Resources */,
 				9C92A975215493B4001762A9 /* Main.storyboard in Resources */,
+				9C92A9F62154A707001762A9 /* ResultsTableViewCell.xib in Resources */,
+				9C92A9DF2154A3BC001762A9 /* blackArrow@2x.png in Resources */,
+				9C92A9DC2154A3BC001762A9 /* grayArrow.png in Resources */,
+				9C92A9DB2154A3BC001762A9 /* blueArrow@2x.png in Resources */,
+				9C92A9B7215495EC001762A9 /* HomeViewController.xib in Resources */,
+				9C92A9DA2154A3BC001762A9 /* blackArrow.png in Resources */,
+				9C92AA022154CDFF001762A9 /* LibraryViewController.xib in Resources */,
+				9C92A9BB215495F7001762A9 /* SearchViewController.xib in Resources */,
+				9C92A9AD215494C8001762A9 /* NavigationBarView.xib in Resources */,
+				9C92A9E12154A3BC001762A9 /* grayArrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +450,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C92A9B3215494F8001762A9 /* DeviceManager.swift in Sources */,
+				9C92AA042154CF1F001762A9 /* QuotationsView.swift in Sources */,
+				9C92AA072154D2D9001762A9 /* HomeController.swift in Sources */,
+				9C92A9E62154A4A8001762A9 /* ColorConfig.swift in Sources */,
+				9C92AA012154CDFF001762A9 /* LibraryViewController.swift in Sources */,
+				9C92A9F22154A6F2001762A9 /* SearchController.swift in Sources */,
+				9C92A9EF2154A6CF001762A9 /* BaseTableViewCell.swift in Sources */,
 				9C92A978215493B4001762A9 /* MTNavigationBarView.xcdatamodeld in Sources */,
+				9C92A9FE2154C9C2001762A9 /* MainViewController.swift in Sources */,
+				9C92A9A2215493E1001762A9 /* BaseViewController.swift in Sources */,
+				9C92A9E22154A3BC001762A9 /* MTTableViewPullRefresh.swift in Sources */,
+				9C92A9BA215495F7001762A9 /* SearchViewController.swift in Sources */,
+				9C92A9B6215495EC001762A9 /* HomeViewController.swift in Sources */,
+				9C92A9F02154A6CF001762A9 /* BaseTableController.swift in Sources */,
 				9C92A972215493B4001762A9 /* ViewController.swift in Sources */,
+				9C92A9EE2154A6CF001762A9 /* BaseHeaderTableView.swift in Sources */,
 				9C92A970215493B4001762A9 /* AppDelegate.swift in Sources */,
+				9C92A9F52154A707001762A9 /* ResultsTableViewCell.swift in Sources */,
+				9C92A9AF215494C8001762A9 /* NavigationBarView.swift in Sources */,
+				9C92A9FA2154C805001762A9 /* UIAlertView+Block.m in Sources */,
+				9C92A9B1215494DB001762A9 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +643,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MTNavigationBarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -442,6 +652,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MTLAB.MTNavigationBarView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MTNavigationBarView/BaseClass/MTNavigationBarView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,6 +663,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MTNavigationBarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,6 +672,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MTLAB.MTNavigationBarView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MTNavigationBarView/BaseClass/MTNavigationBarView-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="nH5-7B-v8K" customClass="NavigationBarView" customModule="MTNavigationBarView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPJ-ni-TIn">
+                    <rect key="frame" x="0.0" y="24" width="46" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="DJX-kb-1cg"/>
+                        <constraint firstAttribute="width" constant="46" id="V0P-Hp-YKf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <state key="normal" image="menu_button">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickLeftButton:" destination="nH5-7B-v8K" eventType="touchUpInside" id="Ua1-9N-0Fx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0d-hf-NLk" customClass="MTUIButton" customModule="MTNavigationBarView" customModuleProvider="target">
+                    <rect key="frame" x="285" y="24" width="80" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                    <state key="normal" title="Xoá truyện">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected" title="Xong"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="_cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="colorCode">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="clickDelete:" destination="nH5-7B-v8K" eventType="touchUpInside" id="TCw-MU-mBV"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line-h" translatesAutoresizingMaskIntoConstraints="NO" id="Vup-Os-5h4">
+                    <rect key="frame" x="0.0" y="59" width="375" height="1"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Truyện mới xem" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ppb-NR-h1M">
+                    <rect key="frame" x="39" y="28" width="231" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Zgi-wQ-Ksl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" red="0.70588235290000001" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxh-no-wOX" customClass="MTUIButton" customModule="MTNavigationBarView" customModuleProvider="target">
+                    <rect key="frame" x="278" y="24" width="85" height="30"/>
+                    <color key="backgroundColor" red="0.70588235290000001" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="W6s-oN-1sy"/>
+                        <constraint firstAttribute="width" constant="85" id="gpk-YI-zTB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                    <state key="normal" title="Xoá toàn bộ"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="colorCode">
+                            <integer key="value" value="6"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="clickDeleteAll:" destination="nH5-7B-v8K" eventType="touchUpInside" id="Ypc-Je-e8f"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Vup-Os-5h4" firstAttribute="leading" secondItem="VPJ-ni-TIn" secondAttribute="leading" id="0yU-eL-BaM"/>
+                <constraint firstItem="Ppb-NR-h1M" firstAttribute="leading" secondItem="nH5-7B-v8K" secondAttribute="leading" constant="39" id="7qw-lj-92E"/>
+                <constraint firstItem="VPJ-ni-TIn" firstAttribute="leading" secondItem="nH5-7B-v8K" secondAttribute="leading" id="DNv-Ma-E84"/>
+                <constraint firstItem="Vup-Os-5h4" firstAttribute="top" secondItem="VPJ-ni-TIn" secondAttribute="bottom" constant="5" id="IB8-Y3-kwZ"/>
+                <constraint firstAttribute="bottom" secondItem="Vup-Os-5h4" secondAttribute="bottom" id="MlS-Q3-4Vm"/>
+                <constraint firstItem="Vup-Os-5h4" firstAttribute="top" secondItem="lxh-no-wOX" secondAttribute="bottom" constant="5" id="aSw-H6-ZDL"/>
+                <constraint firstItem="Vup-Os-5h4" firstAttribute="top" secondItem="Ppb-NR-h1M" secondAttribute="bottom" constant="10" id="dCf-8t-MMF"/>
+                <constraint firstItem="lxh-no-wOX" firstAttribute="leading" secondItem="Ppb-NR-h1M" secondAttribute="trailing" constant="79" id="idW-O3-yYt"/>
+                <constraint firstAttribute="trailing" secondItem="Vup-Os-5h4" secondAttribute="trailing" id="jWH-d4-x7X"/>
+                <constraint firstAttribute="trailing" secondItem="lxh-no-wOX" secondAttribute="trailing" constant="12" id="kka-CP-uxi"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lbTitle" destination="Ppb-NR-h1M" id="tO0-0M-MnM"/>
+                <outlet property="leftButton" destination="VPJ-ni-TIn" id="GrW-uK-gEx"/>
+                <outlet property="otherButton" destination="lxh-no-wOX" id="imd-xB-mLx"/>
+                <outlet property="rightButton" destination="k0d-hf-NLk" id="cpw-rH-Bip"/>
+            </connections>
+            <point key="canvasLocation" x="332.5" y="76"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="line-h" width="320" height="1"/>
+        <image name="menu_button" width="24" height="24"/>
+    </resources>
+</document>

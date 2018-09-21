@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="46H-z3-pzB" customClass="NavigationBarView" customModule="MTNavigationBarView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4F-ts-VKD">
+                    <rect key="frame" x="0.0" y="25" width="46" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="GoB-L8-s45"/>
+                        <constraint firstAttribute="height" constant="30" id="qkq-zH-VHa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <state key="normal" image="menu_button">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickLeftButton:" destination="46H-z3-pzB" eventType="touchUpInside" id="igf-Dc-oiy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1p-Lr-VOe">
+                    <rect key="frame" x="333" y="24" width="42" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="F2z-Bt-Ns0"/>
+                        <constraint firstAttribute="height" constant="30" id="M3p-YC-Y0S"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <state key="normal" image="search-icon">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickSearch:" destination="46H-z3-pzB" eventType="touchUpInside" id="41X-qY-52Z"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line-h" translatesAutoresizingMaskIntoConstraints="NO" id="aYj-Jj-iN6">
+                    <rect key="frame" x="0.0" y="59" width="375" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="alc-ig-AIn"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BzS-9K-CQ3">
+                    <rect key="frame" x="40" y="20" width="290" height="39"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nhập tên truyện" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xvH-lt-GPf">
+                            <rect key="frame" x="0.0" y="5" width="290" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="39" id="VgL-zy-0Ze"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phạm Minh Tiến" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkH-tH-xea">
+                    <rect key="frame" x="39" y="24" width="291" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="9Us-9p-8Q9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" red="0.70588235290000001" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="aYj-Jj-iN6" secondAttribute="trailing" id="0ES-7S-Vbk"/>
+                <constraint firstItem="BzS-9K-CQ3" firstAttribute="leading" secondItem="46H-z3-pzB" secondAttribute="leading" constant="40" id="1tM-Bx-WnI"/>
+                <constraint firstItem="i1p-Lr-VOe" firstAttribute="leading" secondItem="dkH-tH-xea" secondAttribute="trailing" constant="3" id="DvH-Hz-5IO"/>
+                <constraint firstAttribute="bottom" secondItem="aYj-Jj-iN6" secondAttribute="bottom" id="Pnv-NC-Ded"/>
+                <constraint firstItem="aYj-Jj-iN6" firstAttribute="top" secondItem="D4F-ts-VKD" secondAttribute="bottom" constant="4" id="S5c-ea-CpN"/>
+                <constraint firstItem="D4F-ts-VKD" firstAttribute="leading" secondItem="46H-z3-pzB" secondAttribute="leading" id="UZN-zQ-AeA"/>
+                <constraint firstItem="i1p-Lr-VOe" firstAttribute="leading" secondItem="BzS-9K-CQ3" secondAttribute="trailing" constant="3" id="W3h-w4-RcD"/>
+                <constraint firstItem="aYj-Jj-iN6" firstAttribute="top" secondItem="i1p-Lr-VOe" secondAttribute="bottom" constant="5" id="d8W-Gj-0rb"/>
+                <constraint firstItem="aYj-Jj-iN6" firstAttribute="top" secondItem="dkH-tH-xea" secondAttribute="bottom" constant="5" id="gel-zz-PVX"/>
+                <constraint firstAttribute="trailing" secondItem="i1p-Lr-VOe" secondAttribute="trailing" id="lZG-2w-iHT"/>
+                <constraint firstItem="aYj-Jj-iN6" firstAttribute="leading" secondItem="46H-z3-pzB" secondAttribute="leading" id="pWM-bB-7kt"/>
+                <constraint firstItem="aYj-Jj-iN6" firstAttribute="top" secondItem="BzS-9K-CQ3" secondAttribute="bottom" id="wqq-DI-5Fj"/>
+                <constraint firstItem="dkH-tH-xea" firstAttribute="leading" secondItem="46H-z3-pzB" secondAttribute="leading" constant="39" id="yM0-3p-ekj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lbTitle" destination="dkH-tH-xea" id="jCF-Tl-kp5"/>
+                <outlet property="leftButton" destination="D4F-ts-VKD" id="1pN-s9-DHU"/>
+                <outlet property="rightButton" destination="i1p-Lr-VOe" id="47n-Zw-vUC"/>
+                <outlet property="searchBarView" destination="BzS-9K-CQ3" id="Slt-tM-9aO"/>
+                <outlet property="txtSearch" destination="xvH-lt-GPf" id="sFY-de-V9e"/>
+            </connections>
+            <point key="canvasLocation" x="332.5" y="76"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="line-h" width="320" height="1"/>
+        <image name="menu_button" width="24" height="24"/>
+        <image name="search-icon" width="21" height="21"/>
+    </resources>
+</document>
